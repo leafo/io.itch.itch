@@ -22,6 +22,9 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.ScreenSaver
 
+  # Needed for flatpak-spawn --sandbox to launch games in a sub-sandbox
+  - --talk-name=org.freedesktop.Flatpak
+
   # Needed for the tray icon to work properly
   - --own-name=org.kde.*
 
@@ -63,17 +66,6 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-
-  - name: firejail
-    buildsystem: autotools
-    sources:
-      - type: git
-        url: https://github.com/netblue30/firejail.git
-        tag: 0.9.78
-        commit: 35d61001e06494c5523cfed3dd679b6ad4082be5
-        x-checker-data:
-          type: git
-          tag-pattern: ^([\d.]+)$
 
   - name: gamescope
     buildsystem: simple
