@@ -87,10 +87,13 @@
 	</screenshots>
 	<releases>
 		<release version="v26.9.0" date="2026-02-20">
+			<url>https://github.com/itchio/itch/releases/tag/v26.9.0</url>
 		</release>
 		<release version="v26.6.0" date="2026-02-06">
+			<url>https://github.com/itchio/itch/releases/tag/v26.6.0</url>
 		</release>
 		<release version="v26.1.9" date="2024-06-06">
+			<url>https://github.com/itchio/itch/releases/tag/v26.1.9</url>
 		</release>
 		<release version="v25.5.1" date="2021-05-11">
       <url>https://github.com/itchio/itch/releases/tag/v25.5.1</url>
