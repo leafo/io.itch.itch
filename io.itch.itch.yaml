@@ -26,7 +26,7 @@ finish-args:
   - --talk-name=org.freedesktop.Flatpak
 
   # Needed for the tray icon to work properly
-  - --own-name=org.kde.*
+  - --talk-name=org.kde.StatusNotifierWatcher
 
   - --env=PATH=/app/bin:/usr/bin:/usr/lib/extensions/vulkan/gamescope/bin
   - --env=WINEPREFIX=/var/data/wine
